@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: vim
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/skabashn-tenant/rpm-build/vim@sha256:99dbb12fdc8d727607c20e2561a61f697a02bb3004b4eca7123e280fe878f9e1
+      - image: quay.io/redhat-user-workloads/skabashn-tenant/rpm-build/vim@sha256:ec62f75b6e5aa28d28f2ffcefbc275cf4ab082944f78d8d4b6fc001545f89461
         imagePullPolicy: Always
         name: container-image
         ports:
