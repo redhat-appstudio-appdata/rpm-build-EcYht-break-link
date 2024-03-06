@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: vim
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/skabashn-tenant/rpm-build/vim@sha256:db2f93e1258310c438c610e2d7eb6af7d20a0061728a645b0ffa3094736fd5cb
+        name: container-image
+        resources: {}
+status: {}
