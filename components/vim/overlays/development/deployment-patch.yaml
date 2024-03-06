@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/skabashn-tenant/rpm-build/vim@sha256:c5b9b74ad8548e3bb8a774c1e8eddea4ee3ca107341c91ec10510fa2ffb44735
+      - image: quay.io/redhat-user-workloads/skabashn-tenant/rpm-build/vim@sha256:7774fe4c29d0575d27b7181085bf6a671234b9cdb8f883efd4cc7b8be0e4ea76
         name: container-image
         resources: {}
 status: {}
